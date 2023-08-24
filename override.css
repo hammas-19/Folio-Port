@@ -1,0 +1,16 @@
+.home-text-container-placeholder,
+.home-text {
+	color: #141414f5;
+}
+.home-bg-logo img {
+	height: fit-content;
+	width: auto;
+	user-select: none;
+    padding-left: 20px;
+}
+.home-text-container{
+    border-radius: 0 10px 10px 0 ;
+}
+.home-logo {
+    background-color: transparent;
+}
