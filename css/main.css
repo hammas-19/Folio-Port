@@ -1148,7 +1148,7 @@ html.one-page-layout:not(.is-ajax-page-visible) .media-grid .media-cell {
 
 /* PROCESS */
 .process { 
-	position: relative; text-align: center; width: 80px; height: 80px; padding: 10px; margin: 0 auto 40px; border-radius: 50%; background: #fff;
+	position: relative; text-align: center; width: 80px; height: 80px; padding: 10px; margin: 0 auto 40px; border-radius: 50%; background: #141414f5;
 	}
 .process:after { 
 	content: ""; position:absolute; top: 50%; left: 100%; width: 180%; height: 0; border-bottom: 1px dashed #DADADA;
@@ -1160,7 +1160,7 @@ html .process img {
 	width: 100%; max-height: 42px; margin: 0 auto;
 	}
 .process h4 { 
-	margin: 22px 0 0; font-size: 12px;
+	margin: 22px 0 0; font-size: 12px;color: #cef7a7;
 	}
 .row [class^="col-"]:nth-child(3n) .process:after,
 .elementor-column:nth-child(3n) .process:after { 
@@ -1168,7 +1168,7 @@ html .process img {
     }
 .row > div:first-child .process,
 .elementor-column:first-child .process {
-	background: #eaebe7;
+	background: #141414f5;
 	}
 .row > div:first-child .process i,
 .row > div:last-child .process i,
@@ -1184,7 +1184,7 @@ html .process img {
 	}
 .row > div:last-child .process,
 .elementor-column:last-child .process {
-	background: #ebebe7;
+	background: #141414f5;
 	}
 		
 /* FUN FACT */
