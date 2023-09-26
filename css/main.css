@@ -1130,7 +1130,7 @@ html.one-page-layout:not(.is-ajax-page-visible) .media-grid .media-cell {
 
 /* SERVICE */
 .service {
-	padding: 36px 24px; text-align: center; margin-bottom: 30px; border: 1px solid #ededed;
+	padding: 36px 24px; text-align: center; margin-bottom: 30px; border: 1px solid #ededed; border-radius: 10px;
 	}
 	.service i,
 	.service img { 
@@ -1140,10 +1140,10 @@ html.one-page-layout:not(.is-ajax-page-visible) .media-grid .media-cell {
 		margin: 0 .2em; display: inline-block; 
 		}
 	.service p {
-        margin-top: .2em; margin-bottom: 0; opacity: .8; font-size: 15px;
+        margin-top: .2em; margin-bottom: 0; opacity: .8; font-size: 15px; color: #ffffff;
 		}
 	.service h3 {
-        margin-top: 0; margin-bottom: .3em;
+        margin-top: 0; margin-bottom: .3em; color: #cef7a7;
 		}
 
 /* PROCESS */
