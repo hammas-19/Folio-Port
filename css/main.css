@@ -76,6 +76,7 @@ input[type=file] {
 h1,
 .entry-title {
 	font-family: 'Jost*', sans-serif;
+	color: #ffffff;
 	}
 
 /* HOME TITLE */
@@ -904,6 +905,7 @@ i.ripple.active {
 	}
 .one-page-content.is-visible { 
 	z-index: 400; opacity: 1; 
+	background-color: #141414;
 	}
 .one-page-content > div { 
 	width: 90%; margin-left: auto; margin-right: auto; 
@@ -923,12 +925,12 @@ html.one-page-layout:not(.is-ajax-page-visible) .media-grid .media-cell {
 	position: relative; line-height: 1; padding: 0 10px 20px; transition: color 0.5s;
 	}
 
-.one-page-content h1::before {
-	content: ''; position: absolute; height: 30%; width: 30%; top: 50%; margin-top: -18px; left: 34%; z-index: -1; background: #f3f3f3; transform: rotate3d(0,0,1,45deg) scale3d(0,1,1); transition: transform 0.7s;
+/* .one-page-content h1::before {
+	content: ''; position: absolute; height: 30%; width: 10%; top: 50%; margin-top: -18px; left: 34%; z-index: -1; background: #cef7a7; transform: rotate3d(0,0,1,45deg) scale3d(0,1,1); transition: transform 0.7s;
 	}
 .is-ajax-page-visible .one-page-content h1::before {
 	transform: rotate3d(0,0,1,45deg) scale3d(1,1,1);
-	}
+	} */
 
 .one-page-content h1 span {
 	font-size: 20%; font-weight: 400; position: absolute; right: 15px; color: #e53369; bottom: 0; opacity: 0; transform: translate3d(-10px,-10px,0); transition: transform 0.5s, opacity 0.5s;
@@ -1120,6 +1122,10 @@ html.one-page-layout:not(.is-ajax-page-visible) .media-grid .media-cell {
 	}
 .boxed.is-dark * {
 	color: inherit;
+	}
+.boxed.is-limeLight {
+	background: #cef7a7; color: #141414f5;
+	border-radius: 15px;
 	}
 
 /* SERVICE */
