@@ -53,14 +53,14 @@
       autoplay = $('#play-music').hasClass('autoplay') ? true : false;
 
       // add hash to links
-      $(".home-menu a").each(function (index, element) {
-        var menu_link = $(this);
-        var file_url = menu_link.attr("href");
-        var slug = menu_link.data("slug");
+      // $(".home-menu a").each(function (index, element) {
+      //   var menu_link = $(this);
+      //   var file_url = menu_link.attr("href");
+      //   var slug = menu_link.data("slug");
 
-        menu_link.attr("href", "#/" + slug);
-        menu_link.data("file-url", file_url);
-      });
+      //   menu_link.attr("href", "#/" + slug);
+      //   menu_link.data("file-url", file_url);
+      // });
 
       $(".close-page").on("click", function (event) {
         // event.preventDefault();
@@ -1139,29 +1139,7 @@
 
   // ------------------------------
   // SET ACTIVE PAGE
-  function setActivePage() {
-    var path = $.address.path();
-    path = path.slice(1, path.length);
 
-    // if hash tag doesnt exists - close page
-    if (path === "") {
-      closePage();
-    } else {
-      // show page change animation
-      // change page only if url doesn't target portfolio single page
-      //console.log(porftolioSingleJustClosed);
-
-      if (porftolioSingleJustClosed) {
-        porftolioSingleJustClosed = false;
-      } else {
-        if (giveDetailUrl() === -1) {
-          //porftolioSingleJustClosed = false;
-          var new_url = $("a[data-slug=" + path + "]").data("file-url");
-          showPage(new_url);
-        }
-      }
-    }
-  }
   // ------------------------------
 
   // ------------------------------
