@@ -799,7 +799,7 @@ _:-ms-fullscreen, :root .home-menu  { transform: translateY(-50%); }
 	}
 .home-menu .item-name::before,
 .home-menu .item-name::after {
-	content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; background: #1851f1; transform: translate3d(-100%,0,0) translate3d(-1px,0,0); transition: transform 0.7s; transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; background: #cef7a7; transform: translate3d(-100%,0,0) translate3d(-1px,0,0); transition: transform 0.7s; transition-timing-function: cubic-bezier(0.7,0,0.3,1);
 	}
 .home-menu a:hover .item-name::before {
 	transform: translate3d(100%,0,0) translate3d(1px,0,0);	
@@ -863,7 +863,7 @@ _:-ms-fullscreen, :root .home-menu  { transform: translateY(-50%); }
 	background: black; 
 	}
 .overlay-2 { 
-	background: #1851f1; 
+	background: #cef7a7; 
 	}
 .overlay-2:before { 
 	visibility: hidden;
@@ -2889,7 +2889,7 @@ h1, h2, h3, h4, h5, h6, blockquote {
 	
 /* Links */
 a {
- 	color: #1851f1;
+ 	color: #cef7a7;
 	}
 a:hover {
  	color: #2c00ff;
@@ -2909,7 +2909,7 @@ a:hover {
 /* COLORS
    ================================================== */
   
-/* PRIMARY COLOR : #1851f1 */
+/* PRIMARY COLOR : #cef7a7 */
 .button:after,
 input[type=submit]:hover, 
 input[type=button]:hover, 
@@ -2927,10 +2927,10 @@ button:hover,
 .home-menu .item-name::after,
 .overlay-2,
 .mfp-bg  {
- 	background-color: #1851f1;
+ 	background-color: #cef7a7;
 	}
 *::-webkit-scrollbar-thumb {
-	background-color: #1851f1;
+	background-color: #cef7a7;
 	}
 .bypostauthor > article,
 .event h3,
@@ -2945,7 +2945,7 @@ button,
 .button,
 .more-link,
 .navigation a {
-	border-color: #1851f1
+	border-color: #cef7a7
 	}
 .event h3,
 .entry-title a:hover,
@@ -2956,8 +2956,8 @@ button,
 .more-link,
 .navigation a,
 .filters .current .cool-link {
-	color: #1851f1
+	color: #cef7a7
 	}
 #nprogress .spinner-icon {
-  	border-top-color: #1851f1; border-left-color: #1851f1;
+  	border-top-color: #cef7a7; border-left-color: #cef7a7;
 	}

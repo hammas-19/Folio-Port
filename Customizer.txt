@@ -126,8 +126,8 @@ h2, h3, h4, h5, h6, .filters, .nav-menu, .card-nav, th, dt, .button, .catlinks a
 		css			: h1, h2, h3, h4, h5, h6, blockquote { color: #323232; }
 
 	- Link Color (input:colorpicker)
-		default 	: #1851f1
-		css			: a { color: #1851f1; }
+		default 	: #cef7a7
+		css			: a { color: #cef7a7; }
 
 
 	- Link Hover Color (input:colorpicker)
@@ -143,10 +143,10 @@ a:hover {
 	
 
 	- Primary Color (input:colorpicker)	
-		default 	: #1851f1
+		default 	: #cef7a7
 		css			: see below
 	
-/* PRIMARY COLOR : #1851f1 */
+/* PRIMARY COLOR : #cef7a7 */
 .button:after,
 input[type=submit]:hover, 
 input[type=button]:hover, 
@@ -165,10 +165,10 @@ button:hover,
 .home-menu .item-name::after,
 .overlay-2,
 .mfp-bg  {
- 	background-color: #1851f1;
+ 	background-color: #cef7a7;
 	}
 *::-webkit-scrollbar-thumb {
-	background-color: #1851f1;
+	background-color: #cef7a7;
 	}
 .bypostauthor > article,
 .event h3,
@@ -183,7 +183,7 @@ button,
 .button,
 .more-link,
 .navigation a {
-	border-color: #1851f1
+	border-color: #cef7a7
 	}
 .event h3,
 .entry-title a:hover,
@@ -194,10 +194,10 @@ button,
 .more-link,
 .navigation a,
 .filters .current .cool-link {
-	color: #1851f1
+	color: #cef7a7
 	}
 #nprogress .spinner-icon {
-  	border-top-color: #1851f1; border-left-color: #1851f1;
+  	border-top-color: #cef7a7; border-left-color: #cef7a7;
 	}
 	
 	
