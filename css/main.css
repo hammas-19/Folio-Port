@@ -1058,10 +1058,10 @@ html.one-page-layout:not(.is-ajax-page-visible) .media-grid .media-cell {
 
 /* Back to top */
 #back-to-top {
-    position: fixed; bottom: 0; right: -6px; z-index: 9999; width: 86px; line-height: 46px; text-align: center; background: #001428; color: #fff; cursor: pointer; border-radius: 2px; text-decoration: none; transition: all 0.2s ease-out; opacity: 0; visibility: hidden; user-select: none;
+    position: fixed; bottom: 0; right: -6px; z-index: 9999; width: 86px; line-height: 46px; text-align: center; background: #cef7a7; color: #000000; cursor: pointer; border-radius: 2px; text-decoration: none; transition: all 0.2s ease-out; opacity: 0; visibility: hidden; user-select: none;
 	}
 #back-to-top:hover {
-    background: #01101f;
+    background: #dae6f1;
 	}
 #back-to-top span {
 	position: absolute; top: 0; right: 104px; width: 100px; color: #222; font-size: 11px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; transition: opacity 0.4s ease-out; opacity: 0;
