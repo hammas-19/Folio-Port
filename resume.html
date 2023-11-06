@@ -38,6 +38,46 @@
     .event i {
         background-color: #cef7a7 !important;
     }
+    .header {
+        background-image: url(images/blobanimation.svg);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-position-x: right;
+        background-position-y: 60px ;
+        background-size: 200px;
+        position: relative;
+    }
+    .Active {
+        color: #cef7a7;
+        position: absolute;
+        padding: 0 20px;
+        right: 2%;
+        bottom: 25%;
+        text-align: right;
+        z-index: 0;
+        background-color: #2020203a;
+        backdrop-filter: blur(3px);
+    }
+    @media screen and (max-width: 480px) {
+    .header {
+        border: 2px solid red;
+        background-image: url(images/blobanimation.svg);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-position-x: right;
+        background-position-y: 60px ;
+        background-size: 130px;
+    }
+        .Active {
+        color: #cef7a7;
+        position: absolute;
+        padding: 0 5px;
+        right: 1%;
+        bottom: 40%;
+        text-align: right;
+        z-index: 0;
+    }
+}
 
 </style>
 </head>
@@ -55,7 +95,9 @@
                   
                 <!-- HEADER -->
                 <header id="masthead" class="header" role="banner">
-                    
+                    <p class="Active">
+                        Currently Active
+                    </p>
                     <!-- header-wrap -->
                     <div class="header-wrap layout-full">
                         
@@ -91,10 +133,7 @@
 
         </div>
                         
-                        
-
-       
-                        
+                                         
                         
                         <!-- header-social -->
                         <div class="header-bottom">
