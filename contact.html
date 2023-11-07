@@ -4,16 +4,15 @@
     
 		<meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="ikonik - Responsive HTML5 vCard Template">
-        <meta name="keywords" content="vcard, html5, portfolio">
-        <meta name="author" content="Pixelwars">
-        <meta name="theme-color" content="#1755cf" />
+        <meta name="description" content="Hammas Masood's portfolio">
+        <meta name="keywords" content="Hammas Masood, Hammas, portfolio">
+        <meta name="author" content="Hammas Masood">
 
-        <title>ikonik</title>
+        <title>Contact | Hammas Masood</title>
 
         <!-- FAV and TOUCH ICONS -->
-        <link rel="shortcut icon" href="images/ico/favicon.ico">
-        <link rel="apple-touch-icon" href="images/ico/apple-touch-icon.png">
+        <link rel="shortcut icon" href="images/My-Avatar.ico">
+        <link rel="Icon" href="images/My-Avatar.ico">
 		 
         <!-- FONTS -->
         <link rel="stylesheet" href="css/fonts/jost/jost.css">
@@ -32,75 +31,102 @@
         
         <!-- INITIAL SCRIPTS -->
 <script src="js/jquery.js"></script>
+<style>
+        .header {
+        background-image: url(images/blobanimation.svg);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-position-x: right;
+        background-position-y: 60px ;
+        background-size: 200px;
+        position: relative;
+    }
+    .Active {
+        color: #cef7a7;
+        position: absolute;
+        padding: 0 10px;
+        right: 2%;
+        bottom: 25%;
+        text-align: right;
+        z-index: 0;
+        background-color: #2020203a;
+        backdrop-filter: blur(3px);
+    }
+    @media screen and (max-width: 480px) {
+    .header {
+        background-image: url(images/blobanimation.svg);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-position-x: right;
+        background-position-y: 60px ;
+        background-size: 130px;
+    }
+        .Active {
+        color: #cef7a7;
+        position: absolute;
+        padding: 0 5px;
+        right: 1%;
+        bottom: 40%;
+        text-align: right;
+        z-index: 0;
+    }
+}
+</style>
 </head>
     
     
     
 	<body>
     	
-        
-      	
-        
-        
-        
-        
-        
-        
-        
-          
-        
+   
         <!-- PAGE -->
 	<div id="page" class="hfeed site">
             
             <!-- .site-main -->
 		  	<main id="main" class="site-main cd-main">
           
-          
-			
-            
-            
+       
                 <!-- HEADER -->
                 <header id="masthead" class="header" role="banner">
-                    
+                    <p class="Active">
+                        Currently Active
+                    </p>
                     <!-- header-wrap -->
                     <div class="header-wrap layout-full">
                         
-                        <img src="images/home/cover.jpg" alt="profile-image">
+                        <!-- <img src="images/home/cover.jpg" alt="profile-image"> -->
+        <div class="home-heading">
 
-                        <div class="home-heading">
-                            <div class="home-logo">
-                    
-                                <p class="home-job-title">Web Developer</p>
-                
-                                <p class="home-marquee">
-                                    Building creative websites for the world's people. Always in search
-                                    of the great user experience.
-                                    Building creative websites for the world's people. Always in search
-                                    of the great user experience.
-                                </p>
-                
-                                <!--<i class="home-logo-left "><span>Web</span></i>-->
-                                <i class="home-logo-center">
-                                    <span class="home-icon">
-                                        <img src="images/home/icon.svg" alt="icon" />
-                                    </span>
-                                    <span class="home-text-container">
-                                        <p class="home-text-container-placeholder">Jason Whallberg</p>
-                                    </span>
-                                    <span class="home-text">Jason Whallberg</span>
-                                </i>
-                                <!--<i class="home-logo-right"><span>Developer</span></i>-->
-                            </div>
-                        </div>
-                        
-                        
+            <!-- .home-logo -->
+            <div class="home-logo" style="background: none;">
 
-                        <!-- HOME BG LOGO -->
-                        <div class="home-bg-logo">
-                            <img src="images/home/icon-bg2.svg" alt="icon" />
-                        </div>
-                        <!-- HOME BG LOGO -->
+                <p class="home-job-title">Web Front-end Engineer</p>
+
+                <p class="home-marquee">
+                    Building creative websites for the world's people. Always in search
+                    of the great user experience.
+                    Building creative websites for the world's people. Always in search
+                    of the great user experience.
+                </p>
+
+                <!-- <i class="home-logo-left "><span>Web</span></i> -->
+                <i class="home-logo-center">
+                    <span class="home-icon">
+                        <img src="images/My-Avatar.png" alt="icon" />
+                    </span>
+                    <span class="home-text-container">
+                        <span class="home-text-container-placeholder">Hammas Masood</span>
+                    </span>
+                    <span class="home-text">Hammas Masood</span>
+                </i>
+                <i class="home-logo-right"><span>Engineer</span></i>
+
+            </div>
+            <!-- .home-logo -->
+
+        </div>
                         
+                                         
                         
                         <!-- header-social -->
                         <div class="header-bottom">
@@ -117,28 +143,13 @@
                         <nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
                             <div class="nav-menu menu-with-icons">
                                 <ul>
-<li><a class="home" href="index.html">Home</a></li>
-                                <li><a class="search-toggle">Search</a></li>
+                                <li><a class="home" href="index.html">Home</a></li>
+                                <!-- <li><a class="search-toggle">Search</a></li> -->
 
                                 </ul>
                             </div>
                         </nav>
                         <!-- NAV MENU -->
-                        
-                        
-                        
-                        <!-- SEARCH --> 
-                        <div class="header-search">
-                            <form role="search" method="get" class="search-form" action="#">
-                                <label>
-                                    <span class="screen-reader-text">Search for:</span>
-                                    <input type="search" class="search-field" placeholder="Enter Keyword" value="" name="s">
-                                </label>
-                                <input type="submit" class="search-submit" value="Search">
-                            </form>
-                        </div>
-                        <!-- SEARCH -->
-                        
                         
                     </div>
                     <!-- header-wrap -->
@@ -146,33 +157,13 @@
                 </header>
                 <!-- HEADER -->
             
-            
-            
-            
-                
                 
                 <!-- site-middle -->
-                <div class="site-middle">
+                <div class="site-middle" style="background-color: black;">
                 
-                
-                
-                     
-                
-                     
-                    
-                     
+
                     <div class="layout-medium"> 
                         <div id="primary" class="content-area">
-                     
-                    
-                    
-                    
-                     
-                    
-                     
-                
-                    
-        
                     
                             <!-- site-content -->
                             <div id="content" class="site-content" role="main"> <!-- .page-single -->
@@ -224,7 +215,7 @@
                                                         <!--<i class="pe-7s-map-marker"></i>-->
                                                         <img src="images/site/icon-location.svg" alt="image" />
                                                         <!--<img src="images/site/icon-03.png" alt="image"/>-->
-                                                        <h4>based in Houston, USA</h4>
+                                                        <h4>Karachi, Sindh-PK</h4>
                                                     </div>
                                                     <!-- fun-fact -->
     
@@ -238,7 +229,7 @@
                                                     <div class="fun-fact">
                                                         <!--<i class="pe-7s-call"></i>-->
                                                         <img src="images/site/icon-phone.svg" alt="image" />
-                                                        <h4>Tel : +123 456 78900</h4>
+                                                        <h4>Call : +92 316 2411434</h4>
                                                     </div>
                                                     <!-- fun-fact -->
     
@@ -252,7 +243,7 @@
                                                     <div class="fun-fact">
                                                         <!--<i class="pe-7s-mail"></i>-->
                                                         <img src="images/site/icon-mail.svg" alt="image" />
-                                                        <h4>johndoe [at] gmail.com</h4>
+                                                        <h4>hammasmasood [at] gmail.com</h4>
                                                     </div>
                                                     <!-- fun-fact -->
     
@@ -266,7 +257,7 @@
                                                     <div class="fun-fact">
                                                         <!--<i class="pe-7s-check"></i>-->
                                                         <img src="images/site/icon-check.svg" alt="image" />
-                                                        <h4>Freelance Available</h4>
+                                                        <h4>Remote work Available</h4>
                                                     </div>
                                                     <!-- fun-fact -->
     
@@ -284,54 +275,16 @@
 
                                         <!-- section-title -->
                                         <div class="section-title center">
-                                            <h2>
+                                            <h2 style="color: #cef7a7;">
                                                 <i>Drop Me A Line</i>
                                             </h2>
                                         </div>
                                         <!-- section-title -->
 
-                                        <h2 class="center fw-300">Find out if I'm <strong>available</strong> and
+                                        <h2 class="center fw-300" style="color: aliceblue;">21<sup>st</sup> Century is <strong>the Century of collaboration</strong>,
                                             <br>
-                                            ask me anything
+                                            Let's collaborate!
                                         </h2>
-
-
-                                        <!-- .contact-form -->
-                                        <div class="contact-form">
-
-                                            <form id="contact-form" class="validate-form" method="post" action="send-mail.php">
-
-                                                <!-- enter mail subject here -->
-                                                <input type="hidden" name="subject" id="subject" value="You have a new message from ikonik!">
-
-                                                <p>
-                                                    <input placeholder="Name" type="text" name="name" id="name" class="required">
-                                                </p>
-
-                                                <p>
-                                                    <input placeholder="Email" type="text" name="email" id="email"
-                                                        class="required email">
-                                                </p>
-
-                                                <p class="antispam">Leave this empty if you are a human :
-                                                    <br /><input name="url" />
-                                                </p>
-
-                                                <p>
-                                                    <textarea placeholder="Message" name="message" id="message" class="required"></textarea>
-                                                </p>
-
-                                                <p>
-                                                    <button class="submit button primary">Send</button>
-                                                </p>
-
-                                            </form>
-
-                                        </div>
-                                        <!-- .contact-form -->
-
-
-
 
 
 
@@ -384,12 +337,12 @@
                         
                         
                     <!-- .site-footer -->
-                    <footer id="colophon" class="site-footer" role="contentinfo">
+                    <footer id="colophon" class="site-footer" role="contentinfo" style="background-color: black; color: #cef7a7;">
                         
                         <!-- .site-info --> 
                         <div class="site-info">
                             <div class="textwidget">
-                                <p><a href="http://pixelwars.org/">Copyright &copy; 2017 by Pixelwars</a></p>
+                                <p><a>Hammas Masood</a></p>
                             </div>
                         </div>
                         <!-- .site-info --> 

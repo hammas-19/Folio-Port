@@ -473,7 +473,7 @@ textarea,
 
 /* Cool Animated Links */
 .cool-link {
-	background-image: linear-gradient(transparent 88%, blue 12%); background-repeat: no-repeat; background-size: 0% 100%; transition: all 1s;
+	background-image: linear-gradient(transparent 88%, #cef7a7 12%); background-repeat: no-repeat; background-size: 0% 100%; transition: all 1s;
 	}	
 .cool-link:hover, 
 .filters .current .cool-link {
@@ -1110,7 +1110,7 @@ html.one-page-layout:not(.is-ajax-page-visible) .media-grid .media-cell {
 
 /* BOXED */
 .boxed {
-	padding: calc(16px + 2vw); background: #f9f5ea;
+	padding: calc(16px + 2vw); background: #cef7a7;
 	}
 .boxed.is-dark {
 	background: #141414f5; color: #fff;
@@ -2892,10 +2892,10 @@ a {
  	color: #cef7a7;
 	}
 a:hover {
- 	color: #2c00ff;
+ 	color: #b8b7b7;
 	}
 .cool-link {
-	background-image: linear-gradient(transparent 88%, #2c00ff 12%);
+	background-image: linear-gradient(transparent 88%, #cef7a7 12%);
 	}	
 
 /* Text Selection */
