@@ -1638,7 +1638,7 @@ button,
 	}
 input[type=submit]:hover,
 input[type=button]:hover,
-button:not(.button):hover {
+button:not(.button) {
 	background: #345; color: #fff;
 	}
 .button:last-child {
@@ -1927,7 +1927,7 @@ button.mfp-arrow {
 	}
 button.mfp-arrow:hover,
 button.mfp-close:hover { 
-	background: transparent !important; 
+	/* background: transparent !important;  */
 	}
 button.mfp-arrow:after { 
 	display: none; 

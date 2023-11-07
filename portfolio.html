@@ -4,12 +4,15 @@
     
 		<meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="ikonik - Responsive HTML5 vCard Template">
-        <meta name="keywords" content="vcard, html5, portfolio">
-        <meta name="author" content="Pixelwars">
-        <meta name="theme-color" content="#1755cf" />
+        <meta name="description" content="Hammas Masood's portfolio">
+        <meta name="keywords" content="Hammas Masood, Hammas, portfolio">
+        <meta name="author" content="Hammas Masood">
 
-        <title>ikonik</title>
+        <title>Portfolio | Hammas Masood</title>
+
+        <!-- FAV and TOUCH ICONS -->
+        <link rel="shortcut icon" href="images/My-Avatar.ico">
+        <link rel="Icon" href="images/My-Avatar.ico">
 
         <!-- FAV and TOUCH ICONS -->
         <link rel="shortcut icon" href="images/ico/favicon.ico">
@@ -32,23 +35,55 @@
         
         <!-- INITIAL SCRIPTS -->
 <script src="js/jquery.js"></script>
+
+<style>
+        .header {
+        background-image: url(images/blobanimation.svg);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-position-x: right;
+        background-position-y: 60px ;
+        background-size: 200px;
+        position: relative;
+    }
+    .Active {
+        color: #cef7a7;
+        position: absolute;
+        padding: 0 10px;
+        right: 2%;
+        bottom: 25%;
+        text-align: right;
+        z-index: 0;
+        background-color: #2020203a;
+        backdrop-filter: blur(3px);
+    }
+    @media screen and (max-width: 480px) {
+    .header {
+        background-image: url(images/blobanimation.svg);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-position-x: right;
+        background-position-y: 60px ;
+        background-size: 130px;
+    }
+        .Active {
+        color: #cef7a7;
+        position: absolute;
+        padding: 0 5px;
+        right: 1%;
+        bottom: 40%;
+        text-align: right;
+        z-index: 0;
+    }
+}
+</style>
 </head>
     
     
     
 	<body>
     	
-        
-      	
-        
-        
-        
-        
-        
-        
-        
-          
-        
+    
         <!-- PAGE -->
 	<div id="page" class="hfeed site">
             
@@ -61,46 +96,45 @@
             
                 <!-- HEADER -->
                 <header id="masthead" class="header" role="banner">
-                    
+                    <p class="Active">
+                        Currently Active
+                    </p>
                     <!-- header-wrap -->
                     <div class="header-wrap layout-full">
                         
-                        <img src="images/home/cover.jpg" alt="profile-image">
+                        <!-- <img src="images/home/cover.jpg" alt="profile-image"> -->
+        <div class="home-heading">
 
-                        <div class="home-heading">
-                            <div class="home-logo">
-                    
-                                <p class="home-job-title">Web Developer</p>
-                
-                                <p class="home-marquee">
-                                    Building creative websites for the world's people. Always in search
-                                    of the great user experience.
-                                    Building creative websites for the world's people. Always in search
-                                    of the great user experience.
-                                </p>
-                
-                                <!--<i class="home-logo-left "><span>Web</span></i>-->
-                                <i class="home-logo-center">
-                                    <span class="home-icon">
-                                        <img src="images/home/icon.svg" alt="icon" />
-                                    </span>
-                                    <span class="home-text-container">
-                                        <p class="home-text-container-placeholder">Jason Whallberg</p>
-                                    </span>
-                                    <span class="home-text">Jason Whallberg</span>
-                                </i>
-                                <!--<i class="home-logo-right"><span>Developer</span></i>-->
-                            </div>
-                        </div>
-                        
-                        
+            <!-- .home-logo -->
+            <div class="home-logo" style="background: none;">
 
-                        <!-- HOME BG LOGO -->
-                        <div class="home-bg-logo">
-                            <img src="images/home/icon-bg2.svg" alt="icon" />
-                        </div>
-                        <!-- HOME BG LOGO -->
+                <p class="home-job-title">Web Front-end Engineer</p>
+
+                <p class="home-marquee">
+                    Building creative websites for the world's people. Always in search
+                    of the great user experience.
+                    Building creative websites for the world's people. Always in search
+                    of the great user experience.
+                </p>
+
+                <!-- <i class="home-logo-left "><span>Web</span></i> -->
+                <i class="home-logo-center">
+                    <span class="home-icon">
+                        <img src="images/My-Avatar.png" alt="icon" />
+                    </span>
+                    <span class="home-text-container">
+                        <span class="home-text-container-placeholder">Hammas Masood</span>
+                    </span>
+                    <span class="home-text">Hammas Masood</span>
+                </i>
+                <i class="home-logo-right"><span>Engineer</span></i>
+
+            </div>
+            <!-- .home-logo -->
+
+        </div>
                         
+                                         
                         
                         <!-- header-social -->
                         <div class="header-bottom">
@@ -117,28 +151,13 @@
                         <nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
                             <div class="nav-menu menu-with-icons">
                                 <ul>
-<li><a class="home" href="index.html">Home</a></li>
-                                <li><a class="search-toggle">Search</a></li>
+                                <li><a class="home" href="index.html">Home</a></li>
+                                <!-- <li><a class="search-toggle">Search</a></li> -->
 
                                 </ul>
                             </div>
                         </nav>
                         <!-- NAV MENU -->
-                        
-                        
-                        
-                        <!-- SEARCH --> 
-                        <div class="header-search">
-                            <form role="search" method="get" class="search-form" action="#">
-                                <label>
-                                    <span class="screen-reader-text">Search for:</span>
-                                    <input type="search" class="search-field" placeholder="Enter Keyword" value="" name="s">
-                                </label>
-                                <input type="submit" class="search-submit" value="Search">
-                            </form>
-                        </div>
-                        <!-- SEARCH -->
-                        
                         
                     </div>
                     <!-- header-wrap -->
@@ -146,33 +165,13 @@
                 </header>
                 <!-- HEADER -->
             
-            
-            
-            
-                
                 
                 <!-- site-middle -->
-                <div class="site-middle">
-                
-                
-                
-                     
-                
-                     
+                <div class="site-middle" style="background-color: black;">
                     
                      
                     <div class="layout-medium"> 
                         <div id="primary" class="content-area">
-                     
-                    
-                    
-                    
-                     
-                    
-                     
-                
-                    
-        
                     
                             <!-- site-content -->
                             <div id="content" class="site-content" role="main"> <!-- .page-single -->
@@ -201,13 +200,10 @@
                                                 <a href="#" data-filter="*">all</a>
                                             </li>
                                             <li>
-                                                <a href="#" data-filter=".media">Media</a>
+                                                <a href="#" data-filter=".alnafi">Al Nafi</a>
                                             </li>
                                             <li>
-                                                <a href="#" data-filter=".illustration">Illustration</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" data-filter=".video">Video</a>
+                                                <a href="#" data-filter=".others">Others</a>
                                             </li>
                                         </ul>
                                         <!--FILTERS-->
@@ -220,26 +216,40 @@
 
 
 
-                                            <!-- portfolio-item -->
-                                            <div class="media-cell illustration hentry">
 
+
+                                            <!-- AlNafi Main - lightbox gallery -->
+                                            <div class="media-cell alnafi format-gallery hentry">
                                                 <div class="media-box">
-                                                    <img src="images/portfolio/01.jpg" alt="portfolio-post">
+                                                    <img src="images/portfolio/alnafimain/AlNafi3.png" alt="portfolio-post">
                                                     <div class="mask"></div>
-                                                    <a href="portfolio-item-01.html" class="ajax"></a>
+                                                    <!-- lightbox - gallery -->
+                                                    <a href="images/portfolio/alnafimain/AlNafi3.png" class="lightbox"
+                                                        data-title="AlNafi E-Learning"></a>
+                                                    <a href="images/portfolio/alnafimain/AlNafi.png" class="lightbox"
+                                                        data-title="AlNafi E-Learning"></a>
+                                                    <a href="images/portfolio/alnafimain/AlNafi2.png" class="lightbox"
+                                                        data-title="AlNafi E-Learning"></a>
+                                                    <a href="images/portfolio/alnafimain/AlNafi4.png" class="lightbox"
+                                                        data-title="AlNafi E-Learning"></a>
+                                                    <a href="images/portfolio/alnafimain/AlNafi5.png" class="lightbox"
+                                                        data-title="AlNafi E-Learning"></a>
+                                                   <a href="images/portfolio/alnafimain/AlNafi6.png" class="lightbox"
+                                                        data-title="AlNafi E-Learning"></a>
+                                                    <a href="images/portfolio/alnafimain/AlNafi7.png" class="lightbox"
+                                                        data-title="AlNafi E-Learning"></a>
+                                                    <a href="images/portfolio/alnafimain/AlNafi8.png" class="lightbox"
+                                                        data-title="AlNafi E-Learning"></a>                                                        
+                                                    <!-- lightbox - gallery -->
                                                 </div>
-
                                                 <div class="media-cell-desc">
-                                                    <h3>Vans illustrations</h3>
-                                                    <p class="category">by Leo Natsume</p>
+                                                    <h3>Al Nafi</h3>
+                                                    <p class="category">E-Learning</p>
                                                 </div>
-
                                             </div>
-                                            <!-- portfolio-item -->
 
-
-                                            <!-- portfolio-item - lightbox gallery -->
-                                            <div class="media-cell media format-gallery hentry">
+                                            <!-- Alnafi Cloud - lightbox gallery -->
+                                            <div class="media-cell alnafi format-gallery hentry">
                                                 <div class="media-box">
                                                     <img src="images/portfolio/03.jpg" alt="portfolio-post">
                                                     <div class="mask"></div>
@@ -259,134 +269,98 @@
                                                     <p class="category">lightbox gallery</p>
                                                 </div>
                                             </div>
-                                            <!-- portfolio-item - lightbox gallery -->
 
-
-                                            <!-- portfolio-item - lightbox video -->
-                                            <div class="media-cell illustration video format-video hentry">
-
+                                            <!-- Alnafi Alnafi Epay - lightbox gallery -->
+                                            <div class="media-cell alnafi format-gallery hentry">
                                                 <div class="media-box">
-                                                    <img src="images/portfolio/09.jpg" alt="portfolio-post">
+                                                    <img src="images/portfolio/03.jpg" alt="portfolio-post">
                                                     <div class="mask"></div>
-                                                    <!-- lightbox - video -->
-                                                    <a href="https://vimeo.com/123320091" data-title="An Animated History of the Van"
-                                                        class="lightbox mfp-iframe"></a>
-                                                    <!-- lightbox - video -->
-                                                </div>
-
-                                                <div class="media-cell-desc">
-                                                    <h3>Sleepy Games</h3>
-                                                    <p class="category">lightbox video</p>
-                                                </div>
-
-                                            </div>
-                                            <!-- portfolio-item - lightbox video -->
-
-
-                                            <!-- portfolio-item - lightbox soundcloud -->
-                                            <div class="media-cell media format-audio hentry">
-                                                <div class="media-box">
-                                                    <img src="images/portfolio/05.jpg" alt="portfolio-post">
-                                                    <div class="mask"></div>
-                                                    <!-- lightbox - soundcloud : url copied from share/embed code -->
-                                                    <a href="https://w.soundcloud.com/player/?visual=true&auto_play=true&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F221650664&show_artwork=true"
-                                                        data-title="Time (feat. G-Eazy & Olivver the Kid)"
-                                                        class="lightbox mfp-iframe"></a>
-
-                                                    <!-- lightbox - soundcloud -->
+                                                    <!-- lightbox - gallery -->
+                                                    <a href="images/portfolio/lightbox-01.jpg" class="lightbox"
+                                                        data-title="Portraits by MERCEDES DEBELLARD"></a>
+                                                    <a href="images/portfolio/lightbox-02.jpg" class="lightbox"
+                                                        data-title="Portraits by MERCEDES DEBELLARD"></a>
+                                                    <a href="images/portfolio/lightbox-03.jpg" class="lightbox"
+                                                        data-title="Portraits by MERCEDES DEBELLARD"></a>
+                                                    <a href="images/portfolio/lightbox-04.jpg" class="lightbox"
+                                                        data-title="Portraits by MERCEDES DEBELLARD"></a>
+                                                    <!-- lightbox - gallery -->
                                                 </div>
                                                 <div class="media-cell-desc">
-                                                    <h3>Changes</h3>
-                                                    <p class="category">lightbox soundcloud</p>
+                                                    <h3>Wizard Adventure</h3>
+                                                    <p class="category">lightbox gallery</p>
                                                 </div>
                                             </div>
-                                            <!-- portfolio-item - lightbox soundcloud -->
 
-
-                                            <!-- portfolio-item -->
-                                            <div class="media-cell media hentry">
-
+                                            <!-- Alnafi Academy - lightbox gallery -->
+                                            <div class="media-cell alnafi format-gallery hentry">
                                                 <div class="media-box">
-                                                    <img src="images/portfolio/02.jpg" alt="portfolio-post">
+                                                    <img src="images/portfolio/03.jpg" alt="portfolio-post">
                                                     <div class="mask"></div>
-                                                    <a href="portfolio-item-02.html" class="ajax"></a>
-                                                </div>
-
-                                                <div class="media-cell-desc">
-                                                    <h3>Bottle Logo Mockup</h3>
-                                                    <p class="category">an illustration work</p>
-                                                </div>
-
-                                            </div>
-                                            <!-- portfolio-item -->
-
-
-                                            <!-- portfolio-item -->
-                                            <div class="media-cell media hentry">
-                                                <div class="media-box">
-                                                    <img src="images/portfolio/08.jpg" alt="portfolio-post">
-                                                    <div class="mask"></div>
-                                                    <a href="portfolio-item-03.html" class="ajax"></a>
+                                                    <!-- lightbox - gallery -->
+                                                    <a href="images/portfolio/lightbox-01.jpg" class="lightbox"
+                                                        data-title="Portraits by MERCEDES DEBELLARD"></a>
+                                                    <a href="images/portfolio/lightbox-02.jpg" class="lightbox"
+                                                        data-title="Portraits by MERCEDES DEBELLARD"></a>
+                                                    <a href="images/portfolio/lightbox-03.jpg" class="lightbox"
+                                                        data-title="Portraits by MERCEDES DEBELLARD"></a>
+                                                    <a href="images/portfolio/lightbox-04.jpg" class="lightbox"
+                                                        data-title="Portraits by MERCEDES DEBELLARD"></a>
+                                                    <!-- lightbox - gallery -->
                                                 </div>
                                                 <div class="media-cell-desc">
-                                                    <h3>Branding Presentation Kit</h3>
-                                                    <p class="category">an illustration work</p>
+                                                    <h3>Wizard Adventure</h3>
+                                                    <p class="category">lightbox gallery</p>
                                                 </div>
                                             </div>
-                                            <!-- portfolio-item -->
 
 
-                                            <!-- portfolio-item - lightbox image -->
-                                            <div class="media-cell media format-image hentry">
+                                            <!-- Others [Knowgistic] - lightbox gallery -->
+                                            <div class="media-cell others format-gallery hentry">
                                                 <div class="media-box">
-                                                    <img src="images/portfolio/04.jpg" alt="portfolio-post">
+                                                    <img src="images/portfolio/03.jpg" alt="portfolio-post">
                                                     <div class="mask"></div>
-                                                    <!-- lightbox - image -->
-                                                    <a href="images/portfolio/04.jpg" data-title="by MERCEDES DEBELLARD"
-                                                        class="lightbox"></a>
-                                                    <!-- lightbox - image -->
+                                                    <!-- lightbox - gallery -->
+                                                    <a href="images/portfolio/lightbox-01.jpg" class="lightbox"
+                                                        data-title="Portraits by MERCEDES DEBELLARD"></a>
+                                                    <a href="images/portfolio/lightbox-02.jpg" class="lightbox"
+                                                        data-title="Portraits by MERCEDES DEBELLARD"></a>
+                                                    <a href="images/portfolio/lightbox-03.jpg" class="lightbox"
+                                                        data-title="Portraits by MERCEDES DEBELLARD"></a>
+                                                    <a href="images/portfolio/lightbox-04.jpg" class="lightbox"
+                                                        data-title="Portraits by MERCEDES DEBELLARD"></a>
+                                                    <!-- lightbox - gallery -->
                                                 </div>
                                                 <div class="media-cell-desc">
-                                                    <h3>Portrait Skecth</h3>
-                                                    <p class="category">ligthbox image</p>
+                                                    <h3>Wizard Adventure</h3>
+                                                    <p class="category">lightbox gallery</p>
                                                 </div>
                                             </div>
-                                            <!-- portfolio-item - lightbox image -->
 
-
-                                            <!-- portfolio-item - custom url -->
-                                            <div class="media-cell illustration format-link hentry">
+                                            
+                                            <!-- Others [marjaan] - lightbox gallery -->
+                                            <div class="media-cell others format-gallery hentry">
                                                 <div class="media-box">
-                                                    <img src="images/portfolio/07.jpg" alt="portfolio-post">
+                                                    <img src="images/portfolio/03.jpg" alt="portfolio-post">
                                                     <div class="mask"></div>
-                                                    <a href="https://dribbble.com/shots/5926608-Creatin-Way-The-Right-Way" target="_blank"></a>
+                                                    <!-- lightbox - gallery -->
+                                                    <a href="images/portfolio/lightbox-01.jpg" class="lightbox"
+                                                        data-title="Portraits by MERCEDES DEBELLARD"></a>
+                                                    <a href="images/portfolio/lightbox-02.jpg" class="lightbox"
+                                                        data-title="Portraits by MERCEDES DEBELLARD"></a>
+                                                    <a href="images/portfolio/lightbox-03.jpg" class="lightbox"
+                                                        data-title="Portraits by MERCEDES DEBELLARD"></a>
+                                                    <a href="images/portfolio/lightbox-04.jpg" class="lightbox"
+                                                        data-title="Portraits by MERCEDES DEBELLARD"></a>
+                                                    <!-- lightbox - gallery -->
                                                 </div>
                                                 <div class="media-cell-desc">
-                                                    <h3>Creatin — Way The Right Way</h3>
-                                                    <p class="category">external link</p>
+                                                    <h3>Wizard Adventure</h3>
+                                                    <p class="category">lightbox gallery</p>
                                                 </div>
                                             </div>
-                                            <!-- portfolio-item - custom url -->
 
 
-                                            <!-- portfolio-item - lightbox soundcloud -->
-                                            <div class="media-cell media format-audio hentry">
-                                                <div class="media-box">
-                                                    <img src="images/portfolio/06.jpg" alt="portfolio-post">
-                                                    <div class="mask"></div>
-                                                    <!-- lightbox - soundcloud : url copied from share/embed code -->
-                                                    <a href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/560005236&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-                                                        data-title="Too Future Mixes"
-                                                        class="lightbox mfp-iframe"></a>
-
-                                                    <!-- lightbox - soundcloud -->
-                                                </div>
-                                                <div class="media-cell-desc">
-                                                    <h3>Too Future. Guest Mix 108: Laxcity</h3>
-                                                    <p class="category">lightbox soundcloud</p>
-                                                </div>
-                                            </div>
-                                            <!-- portfolio-item - lightbox soundcloud -->
 
 
                                         </div>
@@ -446,12 +420,12 @@
                         
                         
                     <!-- .site-footer -->
-                    <footer id="colophon" class="site-footer" role="contentinfo">
+                    <footer id="colophon" class="site-footer" role="contentinfo" style="background-color: black; color: #cef7a7;">
                         
                         <!-- .site-info --> 
                         <div class="site-info">
                             <div class="textwidget">
-                                <p><a href="http://pixelwars.org/">Copyright &copy; 2017 by Pixelwars</a></p>
+                                <p><a>Hammas Masood</a></p>
                             </div>
                         </div>
                         <!-- .site-info --> 
