@@ -2097,7 +2097,7 @@ button.mfp-arrow-right:before {
 	}
 .blog-regular .hentry.has-post-thumbnail .featured-image,
 .media-box {
- 	overflow: hidden; transition: all .8s; transform: scale(1);
+ 	overflow: hidden; transition: all .3s; transform: scale(1);
 	}
 .blog-regular .hentry.has-post-thumbnail .featured-image:hover,
 .media-box:hover {
