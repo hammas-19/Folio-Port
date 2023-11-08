@@ -1120,7 +1120,7 @@ html.one-page-layout:not(.is-ajax-page-visible) .media-grid .media-cell {
 	}
 .boxed.is-limeLight {
 	background: #cef7a7; color: #141414f5;
-	border-radius: 15px;
+	border-radius: 10px;
 	}
 
 /* SERVICE */
